@@ -1,0 +1,169 @@
+.hero-wrapper {
+    color: white;
+    position: relative;
+    padding-bottom: 2rem;
+    overflow: hidden;
+}
+
+.hero-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Ensure the slider is behind all content */
+}
+
+.hero-slider img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover; /* Cover the entire background area without distortion */
+    object-position: center;
+    filter: brightness(80%);
+}
+
+.hero-container {
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    z-index: 1; /* Ensure the content is above the slider */
+}
+
+/* Rest of your CSS remains unchanged */
+
+.hero-left {
+    gap: 3rem;
+}
+
+.hero-tittle {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-tittle > h1 {
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+    margin-left: 1rem;
+}
+
+.orange-circle {
+    height: 4rem;
+    width: 4rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute;
+    right: 28%;
+    top: -10px;
+    z-index: -1;
+}
+
+.search-bar {
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgba(120, 120, 120, 0.374);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 1rem;
+}
+
+.search-bar > input {
+    border: none;
+    outline: none;
+    width: 60%;
+}
+
+.Sbutton {
+    font-weight: 500;
+    margin-left: 8%;
+    padding: 0.6rem 1.4rem;
+    color: white;
+    background: var(--blue-gradient);
+    border: none;
+    border-radius: 4px;
+    transition: all 100ms ease-in;
+}
+
+.Sbutton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.stats {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.stat > :nth-child(1) {
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.secondaryText {
+    color: #8c8b8b;
+    font-size: .9rem;
+    margin-left: 1rem;
+}
+
+.secondaryText1 {
+    color: white;
+    font-size: .9rem;
+}
+
+.hwhite-gradient {
+    position: absolute;
+    width: 10rem;
+    height: 15rem;
+    background: rgba(225, 225, 225, 0.572);
+    filter: blur(100px);
+    border-radius: 100px;
+}
+
+.image-container {
+    width: 30rem;
+    height: 35rem;
+    margin-right: 1.5rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 225, 225, 0.12);
+}
+
+.image-container > img {
+    width: 100%;
+    height: 100%;
+}
+.video-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    max-height: 80%;
+    width: 80%;
+    height: 60%;
+  }
+  
+  .video-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: 1000;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  

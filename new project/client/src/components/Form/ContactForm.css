@@ -1,0 +1,80 @@
+
+.contact-form-popup h2 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.contact-form-popup p {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #666;
+}
+
+/* .contact-form-popup .input-box {
+  position: relative;
+  margin-bottom: 20px;
+} */
+
+.contact-form-popup .input-box input,
+.contact-form-popup .input-box textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* .contact-form-popup .input-box span {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  background: #fff;
+  padding: 0 5px;
+  font-size: 14px;
+  color: #888;
+} */
+
+.contact-form-popup .input-box textarea {
+  height: 100px;
+  resize: none;
+}
+
+.contact-form-popup .input-box input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form-popup .input-box input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+/* ContactForm.css */
+.contact-form-popup {
+    position: fixed; /* Ensure the form is positioned relative to the viewport */
+    top: 55%; /* Center the form vertically */
+  
+    left:70%;
+    transform: translate(-50%, -50%); /* Center the form exactly */
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000; /* Ensure it is on top of other content */
+  }
+  
+  .popup-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+  }
+  

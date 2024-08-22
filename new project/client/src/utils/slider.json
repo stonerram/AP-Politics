@@ -1,0 +1,45 @@
+[
+    {
+        "name":"Chandrababu Naidu",
+        "role":"Chief Minister",
+        "details":"GAD Law & Order Public Enterprises  ministers",
+        "image":"./images/tdp0.jpg"
+
+    },
+    {
+        "name":"K Pawan Kalyan ",
+        "role":"DeputyChief Minister",
+        "details":"Panchayati RajRural Development & Rural Water SupplyEnvironment ForestScience & Technology",
+        "image":"./images/tdp1.jpg"
+    },
+    {
+        "name":"Nara Lokesh ",
+        "role":"Cabinet Ministers",
+        "details":"Human Resources Development IT Electronics & Communication,RTG all other portfolios ",
+        "image":"./images/tdp2.jpg"
+
+    },{
+        "name":"Nadendla Manohar",
+        "role":"Civil Minister",
+        "details":"Food and Civil Supplies Consumer Affairs",
+        "image":"./images/tdp3.jpg"
+
+    },{
+        "name":"K Atchennaidu ",
+        "role":"Agriculture Minister",
+        "details":"Agriculture Co-operation Marketing Animal Husbandry Dairy development & Fisheries",
+        "image":"./images/tdp4.jpg"
+
+    },{
+        "name":" Ponguru Narayana ",
+        "role":"Municipal Minister",
+        "details":"Municipal Administration and Urban Development",
+        "image":"./images/tdp5.jpeg"
+
+    },{
+        "name":"Anagani Satya Prasad",
+        "role":"Revenue Minister",
+        "details":"Revenue Registration & Stamps",
+        "image":"./images/tdp6.jpg"
+    }
+]
